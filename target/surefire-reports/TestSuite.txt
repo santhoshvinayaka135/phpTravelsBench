@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.375 s <<< FAILURE! - in TestSuite
-One(Training.BenchTrainingEbay.ebay)  Time elapsed: 5.134 s  <<< FAILURE!
-java.lang.AssertionError: expected [Electronics, Cars, Fashion, Collectibles & More | eBay] but found [Our News - eBay Inc.]
-	at Training.BenchTrainingEbay.ebay.One(ebay.java:66)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.197 s - in TestSuite

@@ -8,6 +8,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.homePage;
 import pageObjects.RegistrationPage;
 import pageObjects.afterLoginPage;
@@ -18,7 +20,8 @@ public class phpTravels {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\santvina\\Desktop\\new\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\santvina\\Desktop\\new\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		// Initiate chrome driver
 		driver = new ChromeDriver();
 		// Maximize the window

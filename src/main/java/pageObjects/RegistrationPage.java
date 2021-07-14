@@ -75,6 +75,7 @@ public class RegistrationPage {
 		ArrayList<String> data = a.getDataa("Registration");
 		// Enter first name
 		first.sendKeys(data.get(1));
+		//data.get(2);
 		// Enter last name
 		last.sendKeys(data.get(2));
 		// Enter contact
